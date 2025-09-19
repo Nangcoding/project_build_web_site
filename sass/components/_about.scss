@@ -6,3 +6,154 @@
     background: #262848;
 }
 
+.about-img img{
+    width: 35vw;
+    border-radius: 20px;
+    box-shadow: 0 0 1rem white;
+    transition: .5s;
+    transform: scale(0.9);
+}
+
+.about-img img:hover{
+    transform: scale(1.0);
+}
+
+.about-content h2{
+    text-align: left;
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.about-content h2 span{
+    color: dodgerblue;
+    text-shadow:0 0 4px dodgerblue;
+
+}
+.about-content h3{
+    font-size: 2.9rem;
+    color: dodgerblue;
+    font-weight: 500;
+    font-weight: 700;
+}
+
+.about-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 2rem;
+    text-align: justify;
+}
+
+.heading{
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom:2rem ;
+}
+
+.spann{
+    color: #ff8040;
+}
+
+.services-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: #262848;
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: solid 3px gray;
+    transition: .5s ease;
+}
+
+.services-container .services-box:hover{
+    border-color: white;
+    transform: scale(1.02);
+}
+
+.services-box i{
+    font-size: 7rem;
+    color: skyblue;
+}
+
+.services-box h3{
+    font-size: 2.6rem;
+}
+
+.services-box p{
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+}
+
+.projects{
+    background: #262848;
+}
+
+.projects h2{
+    margin: 4rem;
+}
+
+.all-projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.all-projects .result-of-projects{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem gray;
+    overflow: hidden;
+    display: flex;
+}
+
+.result-of-projects img{
+    width: 100%;
+    transform: .5s ease;
+    opacity: 0.7;
+}
+
+.result-of-projects img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+.result-of-projects .result-layer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0, 0, 0, 0.1), white;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+    
+}
+
+.result-of-projects:hover .result-layer{
+    transform: translateY(0);
+
+}
+
+.result-layer h4{
+    font-size: 3rem;
+}
+
+.result-layer p{
+    font-size: 1.6rem;
+    margin: 3rem 0 1rem;
+    font-weight: 200;
+}
+

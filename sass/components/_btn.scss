@@ -1,0 +1,18 @@
+.btn{
+    display: inline-flex;
+    padding: 1rem 2.6rem;
+    background: rgb(8, 96, 183);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    box-shadow: 0 0 1rem white;
+    color: white;
+    letter-spacing: .1rem;
+    font-weight: 500;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    border: 2px solid white;
+    background: transparent;
+    box-shadow: none;
+}
