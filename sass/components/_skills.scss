@@ -1,0 +1,62 @@
+.main-skill{
+    border: 2px solid gray;
+    border-radius: 8px;
+    background-color:transparent;
+    width: 100%;
+    padding: 1.2rem;
+    transition: .5s ease;
+    box-shadow: 0 0 0.6rem white;
+}
+
+.each-skill{
+    width: 100%;
+}
+
+.subject-skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subject-skills p{
+    padding: 0 8px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    margin: 4px 0;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.line-color{
+    width: 70%;
+    height: 100%;
+    border-radius: 8px;
+    background-color: skyblue;
+}
+
+#javascript{
+    width: 30%;
+}
+
+#css{
+    width: 65%;
+}
+#sass{
+    width: 30%;
+}
+
+#python{
+    width: 60%;
+}
+
+#figma{
+    width: 75%;
+}
+
+#java{
+    width: 20%;
+}
