@@ -1,4 +1,4 @@
-@import"components/section1";
+@import"components/home";
 @import"components/header";
 @import"components/footer";
 @import"components/about";
@@ -36,4 +36,55 @@ section{
 footer{
     background: #111;
     // padding: 10rem 9% 2rem;
+}
+
+@media(max-width: 480px) {
+    .heading{
+        font-size: 1.2rem;
+    }
+    .about{
+        flex-direction: column;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .header{
+        font-size: 1rem;
+    }
+    .services-box h3{
+        font-size: 2.2rem;
+    }
+    .services-box p{
+        font-size: 1.3rem;
+    }
+    .result-layer h4{
+        font-size: 1rem;
+    }
+    .result-layer p{
+        font-size:.5rem ;
+        margin: 2rem 0 1rem;
+    }
+    .about-img img{
+        width: 50vw;
+    }
+    .home{
+        flex-direction: column-reverse;
+    }
+    .home-img .img-box {
+       width: 40vw;
+       height: 41vw;
+       margin-bottom: 2rem;
+    }
+    .home-content h3{
+        font-size: 2.4rem;
+    }
+    .home-content h1{
+        font-size: 4rem;
+    }
+
+    .home-content p{
+        padding-right: 0;
+        font-size: 1.3rem;
+        padding-top: 1rem;
+    }
 }
