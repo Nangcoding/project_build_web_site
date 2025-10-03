@@ -113,7 +113,7 @@ footer{
     }
 }
 
-@media(min-width: 700px){
+@media(min-width: 700px ) and (max-width: 992px){
     .home{
         height: 75vh;
     }
